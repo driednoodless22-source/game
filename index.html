@@ -10,9 +10,17 @@
 <body>
 
 <!-- เพลง -->
-<audio autoplay loop>
+<audio id="bgmusic" loop>
 <source src="อยากให้รู้ว่ารักเธอ.mp3" type="audio/mp3">
 </audio>
+
+
+<script>
+function playMusic(){
+let music = document.getElementById("bgmusic");
+music.play();
+}
+</script>
 
 <div class="box">
 
